@@ -14,3 +14,13 @@ All the code you might possibly care about is in `src/`. The rest is React Nativ
 [`src/index.js`](https://github.com/jc4p/ReactiveArena/blob/master/src/index.js) is the main view controller, and [`src/api.js`](https://github.com/jc4p/ReactiveArena/blob/master/src/api.js) is my work-bed for the actual are.na API code.
 
 I'm hoping that as I add the API calls I need (and auth) to `api.js`, eventually I'll spin it out as its own node module for are.na that anyone else can use too.
+
+## Contributing
+
+Please dear god feel free to help in any way you would like. Anything from helping flesh out requirements (open Issues or leave comments on [Version 0.1 Milestone](https://github.com/jc4p/ReactiveArena/issues/1)!), to styling (I need a better dev story for this, I'm not a fan of styles-as-js like React Native likes) to implementing features.
+
+To run the app locally, you first need to install some tooling, see [React Native's Getting Started](https://facebook.github.io/react-native/docs/getting-started.html). Once you have `react-native-cli` installed, clone this repository and:
+
+- `cd ReactiveArena`
+- `npm install`
+- `react-native run-ios`
