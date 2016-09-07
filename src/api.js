@@ -19,8 +19,11 @@ export default class ArenaAPI {
           status: res.status,
           user_id: res.user_id,
           follower_count: res.follower_count,
-          description: res.metadata.description
         }
+        if (res.metadata !== null && res.metadata.description !== null) {
+          metadata.description = res.metadata.description
+        }
+
         metadata.user = {
           id: res.user.id,
           slug: res.user.slug,

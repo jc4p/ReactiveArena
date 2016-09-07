@@ -30,7 +30,6 @@ class ChannelGallery extends Component {
   }
 
   renderRow(rowData) {
-    console.log(rowData);
     return (
       <TouchableHighlight onPress={() => {this.onItemClick(rowData) }} style={styles.blockImageContainer}>
         <Image style={styles.blockImage} source={{uri: rowData.image.thumb}} />
