@@ -44,6 +44,7 @@ class ChannelGallery extends Component {
         renderRow={(rowData) => this.renderRow(rowData)}
         style={styles.listContainer}
         contentContainerStyle={styles.listItemsContainer}
+        initialListSize={this.state.dataSource.getRowCount() < 20 ? this.state.dataSource.getRowCount() : 20}
       />
     )
   }
@@ -122,6 +123,7 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
   },
   listContainer: {
+    flex: 1,
     alignSelf: 'stretch',
   },
   listItemsContainer: {
