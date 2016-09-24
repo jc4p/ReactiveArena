@@ -5,7 +5,8 @@ I freaking love are.na for collating everything from my thoughts (so over having
 
 Hopefully this will become a full fledged client for are.na, but right now it only loads one channel ( https://www.are.na/lukas-wp/communist-memes ) which is images-only. My current build looks like this:
 
-[![screencap](http://i.imgur.com/e0W7wI1.png)](http://i.imgur.com/e0W7wI1.png)
+[![screencap ios](http://i.imgur.com/e0W7wI1.png)](http://i.imgur.com/e0W7wI1.png)
+[![screencap android](http://i.imgur.com/Tzxpckt.jpg)](http://i.imgur.com/Tzxpckt.jpg)
 
 ## Code Layout
 
